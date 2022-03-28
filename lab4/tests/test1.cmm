@@ -1,0 +1,13 @@
+    struct p{
+        int a;
+        int b;
+        struct q{
+            int c;
+            int d;
+        }e;
+    }f;
+
+int main()
+{
+    f.e.q;
+}
